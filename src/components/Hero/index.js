@@ -1,6 +1,7 @@
 import React from 'react'
 
 import {Section,Content,Left,Title,Desc,Button} from './heroElements'
+import {MdKeyboardArrowRight} from 'react-icons/md'
 
 const Hero = () => {
     return (
@@ -15,6 +16,7 @@ const Hero = () => {
                             </Desc>
                             <Button href='/'>
                                 <span>Clain Your Free Stocks now</span>
+                                <MdKeyboardArrowRight/>
                             </Button>
                         
                     </Left>

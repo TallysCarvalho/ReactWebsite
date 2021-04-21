@@ -7,15 +7,26 @@ height:785px;
 display:block;
 background-repeat:no-repeat;
 background-size:contain;
+
+
+
 `
 export const Content = styled.div`
 width:100%;
 height:100px;
+
+
+
+
 `
 
 export const Left = styled.div`
-padding-left:220px;
+padding-left:160px;
 padding-top:143px;
+
+@media(max-width: 800px) {
+    padding-left:0;
+  }
 `
 
 export const Title = styled.p`
@@ -30,6 +41,7 @@ font-size:20px;
 color: #9ea0ac;
 line-height:30px;
 margin-top:58px;
+
 `
 
 export const Button = styled.a`
